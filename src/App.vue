@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import TheHeader from './components/TheHeader.vue';
 import TheCanvas from './components/TheCanvas.vue';
+import SvgEl from './components/SvgEl.vue';
 </script>
 
 <template>
   <TheHeader></TheHeader>
   <!-- <TheCanvas></TheCanvas> -->
+  <SvgEl></SvgEl>
 </template>
 
 <style>
